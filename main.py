@@ -396,9 +396,9 @@ if __name__ == '__main__':
           f"={round(x_length/division_x*y_length/division_y)}")
     
     # 算法稳定性判定
-    # 使用显示格式时，如果时间步长太小，将无法计算准确结果
+    # 使用显式格式时，如果时间步长太小，将无法计算准确结果
     if nodes[0].f == 0:
-        store_path = os.path.join(work_path, '显示格式')
+        store_path = os.path.join(work_path, '显式格式')
         if time_step < 7830*465/2/53.6 * min(division_x, division_y)**2:
             print("显式格式满足稳定性判定准则")
         else:

@@ -254,6 +254,7 @@ $!ReadDataSet  '|LFDSFN1|'
   InitialPlotType = Cartesian2D
   IncludeText = No
   IncludeGeom = No
+  VarPositionList =  [1-3]
 $!RemoveVar |LFDSFN1|
 $!FrameLayout 
   ShowHeader = No
@@ -281,7 +282,6 @@ $!GlobalRGB
   RangeMax = 1
 $!GlobalContour  1
   Var = 3
-  ColorMapName = 'Sequential - Viridis'
   DefNumLevels = 17
   Legend
     {
@@ -986,6 +986,7 @@ $!ReadDataSet  '|LFDSFN2|'
   InitialPlotType = Cartesian2D
   IncludeText = No
   IncludeGeom = No
+  VarPositionList =  [1-3]
 $!RemoveVar |LFDSFN2|
 $!FrameLayout 
   ShowHeader = No
@@ -1013,7 +1014,6 @@ $!GlobalRGB
   RangeMax = 1
 $!GlobalContour  1
   Var = 3
-  ColorMapName = 'Sequential - Viridis'
   DefNumLevels = 17
   Legend
     {
@@ -1713,5 +1713,5 @@ $!FieldLayers
 $!StreamtraceLayers 
   Show = No
 $!FrameControl ActivateByNumber
-  Frame = 3
+  Frame = 2
 $!SetStyleBase Config

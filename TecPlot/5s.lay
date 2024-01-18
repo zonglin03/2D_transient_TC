@@ -282,7 +282,6 @@ $!GlobalRGB
   RangeMax = 1
 $!GlobalContour  1
   Var = 3
-  ColorMapName = 'Sequential - Viridis'
   DefNumLevels = 17
   Legend
     {
@@ -1015,7 +1014,6 @@ $!GlobalRGB
   RangeMax = 1
 $!GlobalContour  1
   Var = 3
-  ColorMapName = 'Sequential - Viridis'
   DefNumLevels = 17
   Legend
     {
@@ -1715,5 +1713,5 @@ $!FieldLayers
 $!StreamtraceLayers 
   Show = No
 $!FrameControl ActivateByNumber
-  Frame = 3
+  Frame = 2
 $!SetStyleBase Config

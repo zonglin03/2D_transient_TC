@@ -28,7 +28,7 @@ import codecs
 class Node_info:
 
     # 加权因子
-    f = 1
+    f = 0
     # 0 为显式格式
     # 1 为全隐格式
     # 0.5 为C-N格式(Crank - Nicoson)
